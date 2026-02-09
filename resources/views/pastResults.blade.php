@@ -147,7 +147,7 @@
                     <ul class="list-disc list-inside ml-6">
                         <li>Lola Cook [Nottingham] (1st)</li>
                         <li>Lola Fox-Wallace [Birmingham] (2nd)</li>
-                        <li>Perwinne Carlos [UCL/MDX] & Naomy (3rd)</li>
+                        <li>Perwinne Carlos [UCL/MDX] & Naomy {INSTITUTION RECORD LOST} (3rd)</li>
                     </ul>
                 </li>
                 <br>

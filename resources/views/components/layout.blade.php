@@ -20,6 +20,9 @@
         <!-- Intro (show only on home) -->
         @if(request()->routeIs('home'))
             <div id="intro">
+                <div style="text-align:center; margin-bottom:18px;">
+                    <img src="{{ asset('images/Lion.png') }}" alt="Lion" style="max-width:220px; height:auto; display:inline-block;" />
+                </div>
                 <h1>THE BIRMINGHAM KARATE OPEN</h1>
                 <p>Hosted by the University of Birmingham Karate Club</p>
             </div>
