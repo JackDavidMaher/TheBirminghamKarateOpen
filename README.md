@@ -57,3 +57,7 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+2025 Birmingham Karate Open Results
+Raw Institution Medals: UoB = {6 G, 9 S, 17 B}, UoN = {13 G, 3 S, 4 B}, UoL = {1 G, 6 S, 6 B}, MDX = {0 G, 0 S, 5 B}
+Raw Institution Points: UoB = 6*3 + 9*2 + 17*1 = 53, UoN = 13*3 + 3*2 + 4*1 = 49, UoL =  21, MDX = 5     
