@@ -21,7 +21,7 @@
         @if(request()->routeIs('home'))
             <div id="intro">
                 <div style="text-align:center; margin-bottom:18px;">
-                    <img src="{{ asset('images/Lion.png') }}" alt="Lion" style="max-width:220px; height:auto; display:inline-block;" />
+                    <img src="{{ asset('images/Lion.png') }}" alt="THE BKO" style="max-width:220px; height:auto; display:inline-block;" />
                 </div>
                 <h1>THE BIRMINGHAM KARATE OPEN</h1>
                 <p>Hosted by the University of Birmingham Karate Club</p>
@@ -35,10 +35,10 @@
         <nav id="nav">
             <ul class="links">
                 <li><a href="{{ route('home') }}" class="{{ request()->routeIs('/home') ? 'active' : '' }}">Home</a></li>
-                <li><a href="{{ route('about') }}" class="{{ request()->routeIs('/about') ? 'active' : '' }}">About</a></li>
                 <li><a href="{{ route('entries') }}" class="{{ request()->routeIs('/entries') ? 'active' : '' }}">Entries</a></li>
                 <li><a href="{{ route('pastResults') }}" class="{{ request()->routeIs(patterns: '/pastResults') ? 'active' : '' }}">Past Results</a></li>
                 <li><a href="{{ route('upcomingEvents') }}" class="{{ request()->routeIs(patterns: '/upcomingEvents') ? 'active' : '' }}">Upcoming Events</a></li>
+                <li><a href="{{ route('about') }}" class="{{ request()->routeIs('/about') ? 'active' : '' }}">About</a></li>
             </ul>
             <ul class="icons">
                 <li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
