@@ -1,9 +1,6 @@
 <x-layout>
     <x-slot name="title">Past Results</x-slot>
     <x-slot name="description">The Birmingham Karate Open</x-slot>
-    <div class="container mx-auto px-4 py-8">
-        <h1 class="text-3xl font-bold mb-4">Past Results</h1>
-        <p class="text-gray-700 mb-6">Check out the past results of the Birmingham Karate Open.</p>
     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
         <div class="bg-white rounded-lg shadow-md p-6">
             <h2 class="text-xl font-semibold mb-2">2025 Birmingham Karate Open</h2>
