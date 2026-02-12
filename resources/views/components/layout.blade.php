@@ -4,6 +4,10 @@
     <title>The Birmingham Karate Open</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="icon" href="{{ asset('images/Lion.png') }}" type="image/png" />
+    <link rel="shortcut icon" href="{{ asset('images/Lion.png') }}" />
+    <link rel="icon" href="{{ asset('favicon.ico') }}" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="{{ asset('images/Lion.png') }}" />
     <link rel="stylesheet" href="{{ asset('css/main.css') }}" />
     <link rel="stylesheet" href="{{ asset('css/fontawesome-all.min.css') }}" />
     <noscript>
@@ -28,7 +32,9 @@
             </div>
         @endif
         <header id="header">
-            <a href="/" class="logo">THE BKO</a>
+            <a href="/" class="logo">
+                THE BKO
+            </a>
         </header>
 
         <!-- Nav -->
