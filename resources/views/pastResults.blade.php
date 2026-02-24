@@ -14,7 +14,7 @@
                     <strong>Men's Senior Kata:</strong>
                     <ul class="list-disc list-inside ml-6">
                         <li>Cameran Pandav [Nottingham] (1st)</li>
-                        <li>{RECORD LOST} (2nd)</li>
+                        <li>Charlie King [Nottingham] (2nd)</li>
                         <li>Lukas Rossmanith [Cambridge] & Joseph Esturch [Birmingham] (3rd)</li>
                     </ul>
                 </li>
@@ -62,8 +62,8 @@
                 <li>
                     <strong>Men's Senior Kumite (+75Kg):</strong>
                     <ul class="list-disc list-inside ml-6">
-                        <li>Barney {INSTITUTION RECORD LOST} (1st)</li>
-                        <li>{RECORD LOST} (2nd)</li>
+                        <li>Barney Ross [Nottingham] (1st)</li>
+                        <li>Aron Schmidt [Bath] (2nd)</li>
                         <li>Zachary Francassetti [Loughborough] & Nocholas Sande-Fiano [Loughborough] (3rd)</li>
                     </ul>
                 </li>
@@ -72,7 +72,7 @@
                     <ul class="list-disc list-inside ml-6">
                         <li>Adam Prock [Birmingham] (1st)</li>
                         <li>Fintan Coyle [Birmingham] (2nd)</li>
-                        <li>Edward Hall [Loughborough] & {RECORD LOST} (3rd)</li>
+                        <li>Edward Hall [Loughborough] & Adam Gyte [Loughborough] (3rd)</li>
                     </ul>
                 </li>
                 <li>
