@@ -41,10 +41,11 @@
         <nav id="nav">
             <ul class="links">
                 <li><a href="{{ route('home') }}" class="{{ request()->routeIs('/home') ? 'active' : '' }}">Home</a></li>
+                <li><a href="{{ route('mission') }}" class="{{ request()->routeIs('/mission') ? 'active' : '' }}">Mission</a></li>
+                <li><a href="{{ route('about') }}" class="{{ request()->routeIs('/about') ? 'active' : '' }}">About</a></li>
                 <li><a href="{{ route('entries') }}" class="{{ request()->routeIs('/entries') ? 'active' : '' }}">Entries</a></li>
                 <li><a href="{{ route('pastResults') }}" class="{{ request()->routeIs(patterns: '/pastResults') ? 'active' : '' }}">Past Results</a></li>
                 <li><a href="{{ route('upcomingEvents') }}" class="{{ request()->routeIs(patterns: '/upcomingEvents') ? 'active' : '' }}">Upcoming Events</a></li>
-                <li><a href="{{ route('about') }}" class="{{ request()->routeIs('/about') ? 'active' : '' }}">About</a></li>
             </ul>
             <ul class="icons">
                 <li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>

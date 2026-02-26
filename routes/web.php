@@ -37,3 +37,5 @@ Route::get('/contact', fn() => view('contact'))->name('contact');
 Route::get('/entries', fn() => view('entries'))->name('entries');
 Route::get('/pastResults', fn() => view('pastResults'))->name('pastResults');
 Route::get('/upcomingEvents', fn() => view('upcomingEvents'))->name('upcomingEvents');
+Route::get('/history', fn() => view('history'))->name('history');
+Route::get('/mission', fn() => view('mission'))->name('mission');
