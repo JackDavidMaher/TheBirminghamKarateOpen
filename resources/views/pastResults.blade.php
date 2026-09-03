@@ -3,11 +3,7 @@
     <x-slot name="description">The Birmingham Karate Open</x-slot>
     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
         <div class="bg-white rounded-lg shadow-md p-6">
-            <h2 class="text-xl font-semibold mb-2">2025 Birmingham Karate Open</h2>
-            <p><strong>1st:</strong> University of Birmingham (53 Medal Points) <br>
-            <strong>2nd:</strong> University of Nottingham (49 Medal Points) <br>
-            <strong>3rd:</strong> University of Loughborough (21 Medal Points) <br>
-            </p>
+           <h2 class="text-2xl font-semibold mb-4">2025 Birmingham Karate Open Results</h2>
             <ul class="list-disc list-inside text-gray-700">
             <h3 class="text-lg font-semibold mt-4 mb-2">Kata Results</h3>
                 <li>
@@ -58,6 +54,7 @@
                         <li>Helen Lewis [Birmingham] & Perwinne Carlos [UCL/MDX] (3rd)</li>
                     </ul>
                 </li>
+                <br>
                 <h3 class="text-lg font-semibold mt-4 mb-2">Kumite Results</h3>
                 <li>
                     <strong>Men's Senior Kumite (+75Kg):</strong>
@@ -157,11 +154,8 @@
                     </ul>
                 </li>
             </ul>
-            <p class="text-gray-700 mt-4">Institution results are calculated through the common medal point conversion of G:S:B = 3:2:1.
-            <br>
-            Team points are multiplied by 5 to reflect the 5 entries.</p>
-            </p>
-            <p class="text-gray-700 mt-4">If you have any corrections to the above results please contact Birmingham Karate on Instagram.</p>
+            
+            <p class="text-gray-700 mt-4">If you have any corrections to the above results please contact Birmingham Karate on <a href="https://www.instagram.com/birminghamkarate/?hl=en" target="_blank">Instagram</a> or email <a href="mailto:jadama04@gmail.com">jadama04@gmail.com</a></p>
         </div>
     </div>
 </x-layout>

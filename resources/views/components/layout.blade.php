@@ -1,5 +1,6 @@
 <!DOCTYPE HTML>
 <html>
+
 <head>
     <title>The Birmingham Karate Open</title>
     <meta charset="utf-8" />
@@ -25,7 +26,8 @@
         @if(request()->routeIs('home'))
             <div id="intro">
                 <div style="text-align:center; margin-bottom:18px;">
-                    <img src="{{ asset('images/Lion.png') }}" alt="THE BKO" style="max-width:220px; height:auto; display:inline-block;" />
+                    <img src="{{ asset('images/Lion.png') }}" alt="THE BKO"
+                        style="max-width:220px; height:auto; display:inline-block;" />
                 </div>
                 <h1>THE BIRMINGHAM KARATE OPEN</h1>
                 <p>Hosted by the University of Birmingham Karate Club</p>
@@ -40,21 +42,37 @@
         <!-- Nav -->
         <nav id="nav">
             <ul class="links">
-                <li><a href="{{ route('home') }}" class="{{ request()->routeIs('/home') ? 'active' : '' }}">Home</a></li>
-                <li><a href="{{ route('mission') }}" class="{{ request()->routeIs('/mission') ? 'active' : '' }}">Mission</a></li>
-                <li><a href="{{ route('about') }}" class="{{ request()->routeIs('/about') ? 'active' : '' }}">About</a></li>
-                <li><a href="{{ route('entries') }}" class="{{ request()->routeIs('/entries') ? 'active' : '' }}">Entries</a></li>
-                <li><a href="{{ route('pastResults') }}" class="{{ request()->routeIs(patterns: '/pastResults') ? 'active' : '' }}">Past Results</a></li>
-                <li><a href="{{ route('upcomingEvents') }}" class="{{ request()->routeIs(patterns: '/upcomingEvents') ? 'active' : '' }}">Upcoming Events</a></li>
+                <li><a href="{{ route('home') }}" class="{{ request()->routeIs('/home') ? 'active' : '' }}">Home</a>
+                </li>
+
+                <li><a href="{{ route('upcomingEvents') }}"
+                        class="{{ request()->routeIs(patterns: '/upcomingEvents') ? 'active' : '' }}">Upcoming
+                        Events</a></li>
+
+
+
+                <!--
+                <li><a href="{{ route('about') }}" class="{{ request()->routeIs('/about') ? 'active' : '' }}">About</a>
+                </li>
+-->
+                <li><a href="{{ route('entries') }}"
+                        class="{{ request()->routeIs('/entries') ? 'active' : '' }}">Entries</a></li>
+                <li><a href="{{ route('mission') }}"
+                        class="{{ request()->routeIs('/mission') ? 'active' : '' }}">Mission</a></li>
+                <li><a href="{{ route('pastResults') }}"
+                        class="{{ request()->routeIs(patterns: '/pastResults') ? 'active' : '' }}">Past Results</a></li>
+
             </ul>
             <ul class="icons">
-                <li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
-                <li><a href="https://www.instagram.com/birminghamkarate/?hl=en" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+                <li><a href="https://www.instagram.com/birminghamkarate/?hl=en" class="icon brands fa-instagram"><span
+                            class="label">Instagram</span></a></li>
+                <li><a href="https://www.facebook.com/UoBKarate/?locale=en_GB" class="icon brands fa-facebook-f"><span
+                            class="label">Facebook</span></a></li>
             </ul>
         </nav>
         <div id="main">
             {{ $slot }}
-            
+
             {{--
             @if(request()->routeIs('pastResults'))
             <footer>
@@ -72,7 +90,7 @@
             </footer>
             @endif
             --}}
-            
+
         </div>
 
     </div>
