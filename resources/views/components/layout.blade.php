@@ -30,7 +30,7 @@
                         style="max-width:220px; height:auto; display:inline-block;" />
                 </div>
                 <h1>THE BIRMINGHAM KARATE OPEN</h1>
-                <p>Hosted by the University of Birmingham Karate Club</p>
+                <h4><i>Hosted by the University of Birmingham Karate Club</i></h4>
             </div>
         @endif
         <header id="header">

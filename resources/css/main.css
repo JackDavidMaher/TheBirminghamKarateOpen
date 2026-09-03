@@ -1,5 +1,5 @@
 @import url(fontawesome-all.min.css);
-@import url("https://fonts.googleapis.com/css?family=Merriweather:300,700,300italic,700italic|Source+Sans+Pro:900");
+@import url("https://fonts.googleapis.com/css?family=Manrope:300,400,500,600,700,800|Source+Sans+Pro:900");
 
 /*
 	Massively by HTML5 UP
@@ -31,7 +31,6 @@ big,
 cite,
 code,
 del,
-dfn,
 em,
 img,
 ins,
@@ -244,7 +243,7 @@ body,
 input,
 select,
 textarea {
-	font-family: "Merriweather", Georgia, serif;
+	font-family: "Manrope", Arial, sans-serif;
 	font-weight: 300;
 	font-size: 1rem;
 	line-height: 2.375;
