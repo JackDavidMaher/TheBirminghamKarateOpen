@@ -43,7 +43,7 @@
 
                 <li><a href="{{ route('upcomingEvents') }}"
                         class="{{ request()->routeIs(patterns: '/upcomingEvents') ? 'active' : '' }}">Upcoming
-                        Events</a></li>
+                        Events Registration</a></li>
 
 
 
@@ -52,7 +52,7 @@
                 </li>
 -->
                 <li><a href="{{ route('entries') }}"
-                        class="{{ request()->routeIs('/entries') ? 'active' : '' }}">Entries</a></li>
+                        class="{{ request()->routeIs('/entries') ? 'active' : '' }}">Accepted Entries</a></li>
                 <li><a href="{{ route('mission') }}"
                         class="{{ request()->routeIs('/mission') ? 'active' : '' }}">Mission</a></li>
                 <li><a href="{{ route('pastResults') }}"
